@@ -13,6 +13,8 @@ official flutter localization document: https://docs.flutter.dev/development/acc
 
 Language code: https://www.science.co.il/language/Codes.php
 
+Video link: https://www.youtube.com/watch?v=Zw4KoorVxgg&t=20s
+
 ## Getting Started
 
 Loca
