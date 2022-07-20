@@ -28,6 +28,7 @@ lib/
 │   ├── app_de.arb
 │   ├── app_en.arb
 │   ├── app_es.arb
+│   ├── app_he.arb
 │   ├── app_hi.arb
 │   └── l10n.dart
 ├── page/
