@@ -26,24 +26,27 @@ class _HomePageState extends State<HomePage> {
         actions: const [LanguagePickerWidget()],
       ),
       body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            const LanguageWidget(),
-            const SizedBox(height: 30),
-            Text(
-              AppLocalizations.of(context)!.language,
-              style: const TextStyle(
-                fontSize: 30,
-                fontWeight: FontWeight.bold,
+        child: SingleChildScrollView(
+          controller: null,
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              const LanguageWidget(),
+              const SizedBox(height: 30),
+              Text(
+                AppLocalizations.of(context)!.language,
+                style: const TextStyle(
+                  fontSize: 30,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
-            ),
-            const SizedBox(height: 10),
-            Text(
-              AppLocalizations.of(context)!.hello('Siam'),
-              style: const TextStyle(fontSize: 30),
-            ),
-          ],
+              const SizedBox(height: 10),
+              Text(
+                AppLocalizations.of(context)!.hello('Siam'),
+                style: const TextStyle(fontSize: 30),
+              ),
+            ],
+          ),
         ),
       ),
     );

@@ -41,6 +41,6 @@ lib/
 └── main.dart
 ```
 
-## Location of Auto-Generated `localization` Files
+## Location of Auto-generated `localization` Dart Files
 
 <p align="center"><img src="screenshots/generated_files.png"></p>
