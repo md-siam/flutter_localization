@@ -60,7 +60,7 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
-  # For auto generating the .arb files
+  # For auto-generating the .dart files from .arb
   generate: true
 
   # To add assets to your application, add an assets section, like this:

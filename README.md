@@ -14,6 +14,23 @@ The official documentation for flutter localization can be found [here](https://
 
 For language code visit: https://www.science.co.il/language/Codes.php
 
+## Packages Used
+
+```yaml
+dependencies:
+  flutter_localizations: # For app localization
+    sdk: flutter # For app localization
+
+  # For state-management
+  provider: ^6.0.3
+  # Provides internationalization and localization facilities
+  intl: ^0.17.0
+
+flutter:
+  # For auto-generating the .dart files from .arb
+  generate: true
+```
+
 ## App Demo
 
 <p align="center"><img src="screenshots/gif/app_demo.gif"></p>
